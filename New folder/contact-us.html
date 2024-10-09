@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - E & T Art Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+    <script>
+        function initMap() {
+            var galleryLocation = {lat: 40.712776, lng: -74.005974}; // Example coordinates for New York
+            var map = new google.maps.Map(document.querySelector('.google-map'), {
+                zoom: 14,
+                center: galleryLocation
+            });
+            var marker = new google.maps.Marker({
+                position: galleryLocation,
+                map: map
+            });
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="back-button">Back</a>
+        </div>
+    </header>
+    <main>
+        <section class="contact-us">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                
+                <button type="submit" class="btn submit-btn">Submit</button>
+            </form>
+        </section>
+        <section class="gallery-location">
+            <h2>Gallery Location</h2>
+            <div class="google-map" style="width: 100%; height: 400px;"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 E & T Art Gallery</p>
+    </footer>
+</body>
+</html>
+

@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>E&T Art Gallery</title>
+</head>
+<body>
+    
+
+<nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary sticky-nav">
+    <div class="container-fluid" id="home">
+        
+        <div class="title">
+            <h1> <span style="font-size: 32px;">E&T</span>  <br> Art Gallery</h1>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#first-page">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Features
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#responsive-images">Collection</a></li>
+                      <li><a class="dropdown-item" href="#container-colourworks">Color Works</a></li>
+                      <li><a class="dropdown-item" href="#Art-of-Gods">Art of Gods</a></li>
+                    </ul>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="event.html">Event</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="student-resources.html">Students Resources</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#About-us">About Us</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<!-------------------------------------------video section----------------------------->
+<div class="video-container" id="first-page">
+    <video autoplay muted loop id="myVideo">
+      <source src="VIdeos/Video.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+    
+    <div class="content-video">
+      <h2>Art Display</h2>
+      <p>This video contains some of the best art in the world. You can watch or skip this video.</p>
+      <button id="myvideoBtn" onclick="myFunction()">Unmute</button>
+    </div>
+  </div>
+  
+  
+
+
+<!-----------------------------------------Gallery section---------------------------------->
+  
+
+        <div class="clearfix" id="responsive-images">
+            <div class="responsiveImageText">
+               <p><span>Top Viewed Collections</span> and <span>Most liked Arts.</span></p>
+               <p>Here are the most popular arts in our gallery. History and nature is the most beautiful and artist favourite arts till now.</p>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="Images/image33.jpg">
+                    <img src="Images/image33.jpg" alt="Cinque Terre" width="600" height="400">
+                    </a>
+                    <div class="desc">Lonley Maid</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="Images/ancient6.jpg">
+                    <img src="Images/ancient6.jpg" alt="Cinque Terre" width="600" height="400">
+                    </a>
+                    <div class="desc">Greek History</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="Images/image4.jpg">
+                    <img src="Images/image4.jpg" alt="Cinque Terre" width="600" height="400">
+                    </a>
+                    <div class="desc">Ancient Building</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="Images/image38.jpg">
+                    <img src="Images/image38.jpg" alt="Cinque Terre" width="600" height="400">
+                    </a>
+                    <div class="desc">Marble Figure</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="Images/image42.jpg">
+                    <img src="Images/image42.jpg" alt="Cinque Terre" width="600" height="400">
+                    </a>
+                    <div class="desc">Girl in a Boat</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="Images/nature5.jpg">
+                    <img src="Images/nature5.jpg" alt="Cinque Terre" width="600" height="400">
+                    </a>
+                    <div class="desc">Abandoned Desert</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="Images/nature3.jpg">
+                    <img src="Images/nature3.jpg" alt="Cinque Terre" width="600" height="400">
+                    </a>
+                    <div class="desc">Lonley and Village house</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="Images/image37.jpg">
+                    <img src="Images/image37.jpg" alt="Cinque Terre" width="600" height="400">
+                    </a>
+                    <div class="desc">Ancient Greek Princess</div>
+                </div>
+            </div>
+
+            <div class="responsive" style="margin-left: 6%;">
+                <div class="gallery">
+                    <a target="_blank" href="Images/image5.jpg">
+                    <img src="Images/image5.jpg" alt="Cinque Terre" width="600" height="400">
+                    </a>
+                    <div class="desc">Mountain</div>
+                </div>
+            </div>
+
+            <div class="responsive" style="margin-left: 6%;">
+              <div class="gallery">
+                  <a target="_blank" href="Images/image5.jpg">
+                  <img src="Images/image1.jpg" alt="Cinque Terre" width="600" height="400">
+                  </a>
+                  <div class="desc">Mountain2</div>
+              </div>
+          </div>
+
+            <div class="responsive" style="margin-left: 6%;">
+                <div class="gallery">
+                    <a target="_blank" href="Images/2831533.jpg">
+                    <img src="Images/2831533.jpg" alt="Cinque Terre" width="600" height="400">
+                    </a>
+                    <div class="desc">9 tailed Fox Art</div>
+                </div>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    
+
+
+<!------------------------------Colour works---------------------------------->>
+
+<div class="colourworks-text" id="container-colourworks">
+    <p><span>Color</span> in <span>Arts.</span></p>
+    <p>Color  in art refers to the way we see different shades and tones in pictures or paintings. It’s created when light waves </br> hit an object’s surface and are then reflected back to our eyes.</p>
+</div>
+<div class="container-colourworks" style="background-color: black; border-style: outset; margin-top: 80px;" >
+   
+    <h2 style="text-align:center;  font-weight: bolder; font-size: 52px;">Colour works</h2>
+        <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+            <img src="Images/image30.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+            <img src="Images/image27.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+            <img src="Images/image26.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+            <img src="Images/image25.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+            <img src="Images/image21.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">6 / 6</div>
+            <img src="Images/image23.jpg" style="width:100%">
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="Images/image30.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="Images/image27.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="Images/image26.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="Images/image25.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="Images/image21.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+            </div>    
+            <div class="column">
+                <img class="demo cursor" src="Images/image23.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------------------Last Feature------------------------------------>
+
+<div class="main" id="Art-of-Gods">
+<h1 style="font-weight: bolder; margin-bottom: 100px;">Art of Gods</h1>
+  
+  <div class="row">
+    <div class="column">
+      <div class="content">
+        <img src="Images/jeasus.jpg" alt="Jesus" style="width:100%">
+        <h3>Jesus Christ</h3>
+        <p>In Christianity, Jesus is the Son of God as chronicled in the Bible's New Testament, and in most Christian denominations he is held to be God the Son, a prosopon (Person) of the Trinity of God.</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <img src="Images/Krishna.jpg" alt="Krishna" style="width:100%">
+        <h3>Lord Radha Krishna</h3>
+        <p>In Krishnaism, Krishna is referred to as Svayam Bhagavan and Radha is illustrated as the primeval potency of the three main potencies of God, Radha is an embodiment of the feeling of love towards Krishna.</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <img src="Images/hermes.jpg" alt="hermes" style="width:100%">
+        <h3>Hermes</h3>
+        <p>In Roman mythology and religion many of Hermes' characteristics belong to Mercury, a name derived from the Latin merx, meaning "merchandise," and the origin of the words "merchant" and "commerce.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <div class="content">
+        <img src="Images/Ganesh.jpg" alt="Ganesh" style="width:100%">
+        <h3>Lord Ganesh</h3>
+        <p>Ganesha is a popular figure in Indian art. Unlike those of some deities, representations of Ganesha show wide variations and distinct patterns changing over time. He may be portrayed standing, dancing, heroically taking action against demons, playing with his family as a boy, sitting down on an elevated seat, or engaging in a range of contemporary situations.</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <img src="Images/Prometheus.jpg" alt="Prometheus" style="width:100%">
+        <h3>Prometheus</h3>
+        <p>In Greek mythology, possibly meaning "forethought" is one of the Titans and a god of fire. Prometheus is best known for defying the Olympian gods by taking fire from them and giving it to humanity in the form of technology, knowledge and, more generally, civilization.</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <img src="Images/Shiva.jpg" alt="Shiva" style="width:100%">
+        <h3>Lord Shiva</h3>
+        <p>The Auspicious One', Śiva, also known as Mahadeva 'The Great God', or Hara, is one of the principal deities of Hinduism. He is the Supreme Being in Shaivism, one of the major traditions within Hinduism.</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="content">
+    <img src="Images/Buddha.jpg" alt="Buddha" style="width:100%">
+    <h1>Lord Buddha</h1>
+    <p>Siddhartha Gautama, most commonly referred to as the Buddha <span style="font-size: larger; font-weight: bold;">(Light of Asia)</span> was a wandering ascetic and religious teacher who lived in South Asia during the 6th or 5th century and founded Buddhism. According to Buddhist legends,  <span style="font-size: larger; font-weight: bold;">he was born in Lumbini</span>, in what is now <span style="font-size: larger; ">Nepal</span>, to royal parents of the Shakya clan, but renounced his home life to live as a wandering ascetic. After leading a life of mendicancy, asceticism, and meditation, he attained nirvana at Bodh Gaya in what is now India. The Buddha then wandered through the lower Indo-Gangetic Plain, teaching and building a monastic order. Buddhist tradition holds he died in Kushinagar and reached parinirvana.</p>
+  </div>
+  
+</div>
+
+<!--                  API USAGE ----------------------------------------->
+
+
+<div class="container" style="margin-top: 200px; ">
+  <h1 style="font-size: 23px; text-align: center;">Search Anything About Arts Here.</h1>
+  
+  <input type="text" id="searchQuery" placeholder="Search YouTube">
+  <button id="fetchDataBtn">Search</button>
+  <div id="output"></div>
+</div>
+
+
+
+
+<!--------------------------About Us------------------------------------->
+<div class="container text-center" id="About-us" style="margin-top: 250px;" >
+    <div class="row">
+      <div class="col">
+        <img src="Images/pexels-prismattco-2372978.jpg" alt="Image" style="width: 90%; height: auto;">
+      </div>
+      <div class="col" id="AboutUs-text">
+        <h1>About Us</h1>
+        <h5>E&T Art Gallery is a website designed as the final Assignment by Aswin Thapa, Emanual and Yubraj Singh. We have used bootstrap
+            and W3School as a reference in our website. This website is non-profitable as we use this for student purpose. Pictures and videos from different free online 
+            websites have been used under no copyright agreements. 
+        </h5>
+        <h2 style="margin-top: 100px;">Contact Us</h2>
+        <h5>Email: artgallery@E&T.google.com<br>Phone:(672) 233 4567 <br> </h5>
+
+        <h3  style="margin-top: 80px;">Contributions</h3>
+        <ul style="font-size: large; font-weight: 500;">
+            <li>Aswin Thapa</li>
+            <li>Emanual </li>
+            <li>Yubraj Singh</li>
+        </ul>
+       
+      </div>
+    </div>
+
+    <h2 style="margin-top: 100px;">Our Mission</h2>
+    <h5>To the design and development of a mobile-friendly website for the E&T Art Gallery. This website aims to provide users with an intuitive, visually appealing, and interactive platform to explore and appreciate the gallery's collections. The mobile website will enhance user engagement, expand audience reach, and provide a seamless digital experience for art enthusiasts.</h5>
+    
+    <h2 style="margin-top: 100px;">Our Vision</h2>
+    <h5>We aim to provide all resources possible to Art lovers and people who wants to explore art. On the other hand, we also have student resources which is fully for education purpose. Thus, We hope to connect to maximum students and werk together to provide them educational resources.</h5>
+
+</div>
+
+
+
+
+
+
+<!-------------------------------Footer--------------------------------->
+ 
+<footer>
+    <div class="text-center">
+      <div class="row">
+        <div class="col">
+          <div id="footer-sections">
+            <h2>Sections</h2>
+            <ul>
+              <li><a href="#first-page">Home</a></li>
+              <li><a href="#responsive-images">Features</a></li>
+              <li><a href="">Events</a></li>
+              <li><a href="student-resources.html">Students Resources</a></li>
+              <li><a href="">FAQs</a></li>
+              <li><a href="#About-us">About us</a></li>
+            </ul>
+
+          </div>
+        </div>
+        <div class="col">
+          <form action="" id="subscription-form">
+            <div class="container">
+              <h3>Subscribe to our Newsletter</h3>
+              <p>Suscribe to our Newsletter and get hooked up with us and with our latest contents..</p>
+            </div>
+          
+            <div class="container" style="background-color:white">
+              <input type="text" placeholder="Name" name="name" required>
+              <input type="text" placeholder="Email address" name="mail" required>
+              <label>
+                <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+              </label>
+            </div>
+          
+            <div class="container">
+              <input type="submit" value="Subscribe">
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="col">
+        <a href=""><img src="square-facebook.png" alt="fb" style="width: 90px; height: 90px; margin-right: -40px;"></a>
+         <a href=""><img src="bxl-instagram-alt.png" alt="insta" style="width: 140px; height: 140px; margin-right: -60px;"></a>
+         <a href=""><img src="logo-linkedin.png" alt="linkedin" style="width: 120px; height: 120px; margin-right: -40px;"></a>
+       </div>
+
+      <div class="col" style="margin-top: 30px;">
+        @2024 E & T Art Gallery, Inc. All rights reserved.
+    </div>
+
+ 
+   </footer>  
+   
+ <script src="app.js"></script> 
+<script src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
